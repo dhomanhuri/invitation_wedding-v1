@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <!-- <hr class="my-5 py-5" />
+      <hr class="my-5" /> -->
+      <h3 class="display-6 mt-5">Undangan Pernikahan</h3>
+      <hr class="my-2" />
+      <!-- <h1 class="display-3">Yoga Kurniawan & Novi Sri Lestari</h1> -->
+      <h1 class="display-3">Yoga Kurniawan</h1>
+      <h1 class="display-3">&</h1>
+      <h1 class="display-3">Novi Sri Lestari</h1>
+      <hr class="my-2" />
+      <!-- <button class="shadow__btn">Save the date</button> -->
+      <button data-text="Awesome" class="button2">
+        <span class="actual-text">&nbsp;Save&nbsp;</span>
+        <span class="hover-text" aria-hidden="true">&nbsp;Save&nbsp;</span>
+      </button>
+      <hr class="my-2" />
+      <h1>Sabtu, 5 Juli 2025</h1>
+      <hr class="my-2 my-md-0" />
+      <div class="container-fluid container-md text-center">
+        <div class="row mt-lg-5 mt-0 mt-md-2 g-0">
+          <div class="col-3 col-md-3 my-2">
+            <div class="card rounded-4">
+              <div class="my-lg-4 my-md-2 my-2">
+                <div id="countdown_month" class="fs-lg-5 fs-md-6 fs-1 text-warning">0</div>
+                <div class="text-light under-countdown">Bulan</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-3 my-2">
+            <div class="card rounded-4">
+              <div class="my-lg-4 my-md-2 my-2 mx-1">
+                <div id="countdown_day" class="fs-lg-5 fs-md-6 fs-1 text-warning">0</div>
+                <div class="text-light under-countdown">Hari</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-3 my-2">
+            <div class="card rounded-4">
+              <div class="my-lg-4 my-md-2 my-2">
+                <div id="countdown_hour" class="fs-lg-5 fs-md-6 fs-1 text-warning">0</div>
+                <div class="text-light under-countdown">Jam</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-3 my-2">
+            <div class="card rounded-4">
+              <div class="my-lg-4 my-md-2 my-2">
+                <div id="countdown_second" class="fs-lg-5 fs-md-6 fs-1 text-warning">0</div>
+                <div class="text-light under-countdown">Detik</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section2 text-center">
+      <div class="container py-1">
+        <hr class="" />
+        <h1>Assalamualaikum Wr. Wb.</h1>
+        <p class="mt-2">Maha suci Allah yang telah menciptakan mahluk-Nya berpasang-pasangan. Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami untuk mengikuti Sunnah Rasul-Mu dalam rangka membentuk keluarga yang sakinah, mawaddah, warahmah.</p>
+        <div class="container text-center mt-5 mb-4">
+          <div class="row">
+            <div class="col">
+              <img src="assets/pria.jpg" alt="Avatar" />
+              <h1 class="mt-2">Yoga Kurniawan</h1>
+            </div>
+            <div class="col">
+              <img src="assets/wanita.png" alt="Avatar" />
+              <h1 class="mt-2">Novi Sri Lestari</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section3 text-center">
+      <div class="container">
+        <div class="row text-center py-5">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card mx-auto">
+              <div class="card-body">
+                <h1>Akad</h1>
+                <svg class="mt-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" style="width: 64px; height: 64px">
+                  <path
+                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
+                    style="fill: #ecbb6c"
+                  />
+                </svg>
+
+                <h1 class="mt-2">Jumat, 30 Juni 2023</h1>
+                <h6 class="mt-2">07.00 - 18.00</h6>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="my-3" height="1em" viewBox="0 0 576 512" style="width: 64px; height: 64px">
+                  <path
+                    d="M565.6 36.2C572.1 40.7 576 48.1 576 56V392c0 10-6.2 18.9-15.5 22.4l-168 64c-5.2 2-10.9 2.1-16.1 .3L192.5 417.5l-160 61c-7.4 2.8-15.7 1.8-22.2-2.7S0 463.9 0 456V120c0-10 6.1-18.9 15.5-22.4l168-64c5.2-2 10.9-2.1 16.1-.3L383.5 94.5l160-61c7.4-2.8 15.7-1.8 22.2 2.7zM48 136.5V421.2l120-45.7V90.8L48 136.5zM360 422.7V137.3l-144-48V374.7l144 48zm48-1.5l120-45.7V90.8L408 136.5V421.2z"
+                    style="fill: #ecbb6c"
+                  />
+                </svg>
+                <h1 class="mt-2">Kediaman Wanita</h1>
+                <h6 class="mt-2">Jalan Buntu No 17</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mx-auto">
+              <div class="card-body">
+                <h1>Resepsi</h1>
+                <svg class="mt-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" style="width: 64px; height: 64px">
+                  <path
+                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
+                    style="fill: #ecbb6c"
+                  />
+                </svg>
+
+                <h1 class="mt-2">Jumat, 30 Juni 2023</h1>
+                <h6 class="mt-2">07.00 - 18.00</h6>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="my-3" height="1em" viewBox="0 0 576 512" style="width: 64px; height: 64px">
+                  <path
+                    d="M565.6 36.2C572.1 40.7 576 48.1 576 56V392c0 10-6.2 18.9-15.5 22.4l-168 64c-5.2 2-10.9 2.1-16.1 .3L192.5 417.5l-160 61c-7.4 2.8-15.7 1.8-22.2-2.7S0 463.9 0 456V120c0-10 6.1-18.9 15.5-22.4l168-64c5.2-2 10.9-2.1 16.1-.3L383.5 94.5l160-61c7.4-2.8 15.7-1.8 22.2 2.7zM48 136.5V421.2l120-45.7V90.8L48 136.5zM360 422.7V137.3l-144-48V374.7l144 48zm48-1.5l120-45.7V90.8L408 136.5V421.2z"
+                    style="fill: #ecbb6c"
+                  />
+                </svg>
+                <h1 class="mt-2">Kediaman Wanita</h1>
+                <h6 class="mt-2">Jalan Buntu No 17</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section4">
+      <div class="container text-center py-5">
+        <img src="assets/src/divider.png" alt="" class="mb-5 w-75 w-md-100" />
+        <h3 class="">Dalil</h3>
+        <p>"Dan Diantara tanda-tanda kebesaran-Nya ialah diciptakan-Nya untukmu pasangan hidup dari jenismu sendiri supaya kamu mendapatkan ketenangan hati dan dijadikan-Nya kasih sayang diantara kamu sesungguhnya yang demikian menjadi tanda-tanda kebesaran-Nya bagi orang-orang yang berfikir"</p>
+        <h3>(Surat Ar-Ruum:21)</h3>
+      </div>
+    </div>
+    <div class="section5">
+      <div class="container text-center py-5">
+        <h1>Galery</h1>
+        <hr class="my-3" />
+        <div class="owl-carousel owl-theme">
+          <div class="item text-center">
+            <img src="assets/galery1.jpg" class="w-50" alt="" />
+          </div>
+          <div class="item text-center">
+            <img src="assets/galery2.jpg" class="w-50" alt="" />
+          </div>
+          <div class="item text-center">
+            <img src="assets/galery4.jpg" class="w-50" alt="" />
+          </div>
+          <div class="item text-center">
+            <img src="assets/galery5.jpg" class="w-50" alt="" />
+          </div>
+          <div class="item text-center">
+            <img src="assets/galery6.jpg" class="w-50" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $(function () {
+        // Owl Carousel
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+          items: 1,
+          margin: 30,
+          loop: true,
+          nav: true,
+          autoplay: true,
+          timeout: 1000,
+          // responsive: {
+          //   0: {
+          //     items: 1,
+          //   },
+          //   600: {
+          //     items: 2,
+          //   },
+          //   1000: {
+          //     items: 4,
+          //   },
+          // },
+        });
+      });
+    </script>
+    <script>
+      // Set the date and time to count down to
+      var countDownDate = new Date("August 1, 2023 00:00:00").getTime();
+
+      // Update the countdown every second
+      var countdownTimer = setInterval(function () {
+        // Get the current date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Calculate days, hours, minutes, and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the countdown
+        document.getElementById("countdown_month").innerHTML = days;
+        document.getElementById("countdown_day").innerHTML = hours;
+        document.getElementById("countdown_hour").innerHTML = minutes;
+        document.getElementById("countdown_second").innerHTML = seconds;
+
+        // If the countdown is finished, display a message
+        if (distance < 0) {
+          clearInterval(countdownTimer);
+          document.getElementById("countdown").innerHTML = "Countdown Expired";
+        }
+      }, 1000);
+    </script>
+    <audio src="audio.mp3" id="my_audio" loop="loop" autoplay="autoplay"></audio>
+    <script type="text/javascript">
+      window.onload = function () {
+        document.getElementById("my_audio").play();
+      };
+    </script>
+  </body>
+</html>

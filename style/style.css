@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
+
+@media (min-width: 768px) {
+}
+
+.jumbotron {
+  position: relative;
+  background: url("../assets/galery3.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  height: 80vh; /* Set the height to 80% of viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(53, 53, 53, 0.5);
+  z-index: 1;
+}
+
+.under-countdown {
+  font-family: "", serif;
+}
+
+.jumbotron .card,
+h1,
+h2,
+h3,
+a,
+button {
+  z-index: 2;
+  font-family: "Niconne", cursive;
+  /* color: #ecbb6c; */
+}
+
+.jumbotron h1,
+h3 {
+  color: #ecbb6c !important;
+}
+
+#countdown_month,
+#countdown_day,
+#countdown_hour,
+#countdown_second {
+  font-size: 50px;
+}
+
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(0, 140, 255);
+  box-shadow: 0 0 25px rgb(0, 140, 255);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255), 0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
+}
+
+.section2 {
+  background-color: #282828;
+}
+
+.section2 h1,
+p {
+  font-family: "Dancing Script", cursive;
+  color: #ecbb6c;
+}
+.section2 h4 {
+  color: #ecbb6c;
+}
+.section2 p {
+  font-size: 20px;
+  color: #ecbb6c;
+}
+
+.section2 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cardIlyas {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+
+.nft {
+  user-select: none;
+  max-width: 300px;
+  margin: 5rem auto;
+  border: 1px solid #ffffff22;
+  background-color: #282c34;
+  background: linear-gradient(0deg, rgba(40, 44, 52, 1) 0%, rgba(17, 0, 32, 0.5) 100%);
+  box-shadow: 0 7px 20px 5px #00000088;
+  border-radius: 0.7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: 0.5s all;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 1rem;
+}
+
+.jumbotron .container {
+  width: 50%;
+}
+.jumbotron .container .card {
+  color: white;
+  font-size: 30px;
+}
+
+.card {
+  background-color: #141414 !important;
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #242424;
+  box-shadow: 1px 1px 3px #242424, -1px -1px 3px #242424;
+}
+.cardIlyas2 {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  background-color: #191919;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.cardIlyas2::before {
+  content: "";
+  width: 120px;
+  height: 600px;
+  left: 60px;
+  top: -120px;
+  background: linear-gradient(#000000, #ffffff);
+  position: absolute;
+  animation: animate 5s linear infinite;
+}
+
+.cardIlyas2::after {
+  content: "";
+  position: absolute;
+  background: #191919;
+  inset: 5px;
+  border-radius: 5px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.section3 {
+  background-color: #141414;
+}
+
+.section3 .card {
+  border: 2px solid #ecbb6c;
+  width: 80%;
+}
+.jumbotron .card {
+  /* border: 1px solid #ecbb6c; */
+  width: 90%;
+}
+
+.section3 h1 {
+  color: #ecbb6c !important;
+}
+
+.section3 h6 {
+  color: white;
+}
+
+.section3 i {
+  z-index: 100;
+  color: white;
+}
+
+.section3 svg {
+  z-index: 100;
+  color: white;
+}
+
+.section4 {
+  background-color: #191919;
+}
+
+.section4 h3,
+p {
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+}
+.section4 p {
+  font-size: 20px;
+}
+
+.section5 {
+  background-color: #282c34;
+}
+.section5 h1 {
+  color: white;
+}
+/* === removing default button style ===*/
+.button2 {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* button2 styling */
+.button2 {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255, 255, 255, 0.6);
+  --animation-color: #ecbb6c;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button2 */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button2:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color));
+}
